@@ -13,4 +13,4 @@ egrep "$expression" "$file"
 egrep -c "[0-9]{3}-[0-9]{3}-[0-9]{4}" regex_practice.txt
 egrep -c "[@]" regex_practice.txt
 egrep -o "^[303]{3}-[0-9]{3}-[0-9]{4}" regex_practice.txt
-egrep "[0-9a-zA-Z_\.]+@[_0-9a-zA-Z\.]+$" regex_practice.txt>>email_results.txt
+egrep "[0-9a-zA-Z_\.]+@[_0-9a-zA-Z\.]+$" regex_practice.txt>>email_results2.txt
